@@ -9,7 +9,7 @@ and open the template in the editor.
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
-  <xs:element name="BandDatabase">
+  <xs:element name="Bandapp">
     <xs:complexType>
       <xs:sequence>
         <xs:element name="Band" maxOccurs="unbounded" minOccurs="0">
