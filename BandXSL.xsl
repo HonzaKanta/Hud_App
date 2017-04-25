@@ -16,7 +16,7 @@
     -->
     <xsl:template match="/">
         <xsl:output method="text" />
-        <xsl:template match="BandDatabase">
+        <xsl:template match="Bandapp">
           [
           <xsl:for-each select="Band">
              <xsl:sort select="@id" />
